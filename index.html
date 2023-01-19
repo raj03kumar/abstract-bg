@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Abstract</title>
+  </head>
+  <body>
+    <header>
+      <video autoplay loop muted class="bg-video">
+        <source src="assets/bg.mp4" />
+      </video>
+
+      <div class="content">
+        Here and now
+        <h1>Abstract</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio
+          nostrum porro aut explicabo exercitationem eveniet.
+        </p>
+        <a href="#">Learn More</a>
+      </div>
+    </header>
+
+    <!-- Placeholder Content -->
+    <section>
+      <h1>Lorem ipsum</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, amet
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime,
+        aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio cupiditate distinctio quos eveniet numquam. Error eum dolore deleniti quidem consequatur.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+        expedita facilis perferendis esse eos, facere tempora voluptate a
+        consequatur ullam aut architecto quia nobis, sequi deserunt fugit
+        voluptatem ab distinctio? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati illo maiores recusandae repudiandae perspiciatis id, pariatur quia ipsum dolorem. Odio quaerat vero reiciendis, quas ex placeat, in vel eum dolor explicabo quam ducimus nam, adipisci impedit quos hic! Ad, ullam!
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus quae
+        natus unde repudiandae quidem sunt, quo nihil harum, omnis quisquam nisi
+        veritatis totam error itaque voluptas molestiae quam voluptate soluta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ad aut quasi assumenda. Repellendus a modi, eveniet natus nostrum eligendi deserunt aperiam sapiente laboriosam quod quos molestiae consequuntur quae sit architecto necessitatibus velit provident quaerat tempora dolore nemo? Autem, maxime magnam minima, quam facere commodi saepe nam, eligendi dolores beatae tenetur quo dolor. Ab reiciendis, sunt illum libero officia similique sapiente nobis sed vel aspernatur quisquam dignissimos enim necessitatibus tempore?
+      </p>
+    </section>
+
+    <script>
+      // disabling inspect element
+      document.addEventListener("contextmenu", function(e){
+          e.preventDefault(); //this prevents right click
+      });
+      document.onkeydown=function(e){
+          if(event.keycode==123){
+              return false;
+          }
+          if(e.ctrlKey && e.shiftKey && e.keyCode=="I".charCodeAt(0)){
+              return false;
+          }
+          if(e.ctrlKey && e.shiftKey && e.keyCode=="C".charCodeAt(0)){
+              return false;
+          }
+          if(e.ctrlKey && e.shiftKey && e.keyCode=="J".charCodeAt(0)){
+              return false;
+          }
+          if(e.ctrlKey && e.keyCode=="U".charCodeAt(0)){
+              return false;
+          }
+      };
+    </script>
+  </body>
+</html>
